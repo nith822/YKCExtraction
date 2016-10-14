@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>YKC</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/Ykc.java</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/%E6%81%8B%E3%81%99%E3%82%8B%E5%A7%89%E5%A6%B9%E3%81%AE%E5%85%AD%E9%87%8D%E5%A5%8F_%E4%BD%93%E9%A8%93%E7%89%88Ver02/contents/src/Ykc.java</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
