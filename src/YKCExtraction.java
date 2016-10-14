@@ -3,18 +3,14 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.charset.Charset;
 
-/**
- *
- */
+//Extract data from .ykc files
 public class YKCExtraction {
 
 	public static final String EXTRACT_PATH = "/home/harvey/Desktop/javaExtract/";
 	
-	/**
-	 * @param args
-	 */
 	public static void main(String[]args) {
 		try {
+			//param args[0] Path to .ykc file
 			for(Ykc.FileEntry fileEntry : Ykc.fromFile(args[0]).header().entries()) {
 				String fileName = fileEntry.filename().trim();
 				Charset.forName("UTF-8").encode(fileName);
